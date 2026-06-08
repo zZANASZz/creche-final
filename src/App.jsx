@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
 import { supabase } from './supabase'
-import Login from './pages/login'
-import Setup from './pages/setup'
-import Dashboard from './pages/dashboard'
-import ResetPassword from './pages/resetPassword'
+import Login from './pages/Login'
+import Setup from './pages/Setup'
+import Dashboard from './pages/Dashboard'
+import ResetPassword from './pages/ResetPassword'
 
 export default function App() {
   const [session, setSession] = useState(null)
